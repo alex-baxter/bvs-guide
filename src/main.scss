@@ -1,0 +1,66 @@
+/* No CSS *//*# sourceMappingURL=style.css.map */
+@import "~bootstrap/scss/bootstrap";
+@import "~animate.css/source/_base.css";
+@import "~animate.css/source/fading_entrances/fadeIn.css";
+
+$bluebg: #0b2b59;
+$orangebg: #db4026;
+$orangelight: #dd5b3f;
+$bluelight: #2d4159;
+$white: #f5f5f5;
+
+p {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+#headblock {
+    background-color: $bluebg;
+    color: $white;
+}
+
+#titleblock {
+    height: 400px;
+    position: relative;
+    img {
+        max-width: 569px;
+        height: auto;
+        position: absolute;
+        right: 40px;
+    }
+    h5 {
+        margin-top: auto;
+    }
+}
+
+.slide-group {
+    .row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+        .col-4 {
+    flex: 0 0 auto;
+        }
+  }
+}
+
+#headchapter1 {
+    background-color: $orangebg;
+    color: $white;
+    padding: 20px 0px 20px 0px;
+    image {
+        position: absolute;
+        right: -20px;
+    }
+}
+
+.orangetext {
+    color: $orangelight;
+}
+
+.bluetext {
+    color: $bluelight;
+}
